@@ -1,0 +1,19 @@
+#lbl{
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-max-width: Infinity;
+    -fx-font-family: Cambria;
+}
+
+#name{
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-font-size: 15px;
+    -fx-font-family: Cambria;
+}
+.button{
+    -fx-max-width: 200px;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-font-family: Cambria;
+}

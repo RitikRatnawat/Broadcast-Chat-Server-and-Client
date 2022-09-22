@@ -1,0 +1,52 @@
+#heading{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-background-color: black;
+    -fx-max-width: Infinity;
+    -fx-text-fill: white;
+    -fx-padding: 5px;
+    -fx-font-size: 30px;
+    -fx-font-family: "Monotype Corsiva";
+}
+
+#window{
+    -fx-max-width: 520px;
+    -fx-max-height: 350px;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-font-size: 15px;
+    -fx-font-family: Cambria;
+}
+
+#message{
+    -fx-max-height: 60px;
+    -fx-max-width: 390px;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-font-size: 15px;
+    -fx-font-family: Cambria;
+}
+#userLabel{
+    -fx-max-width: 200px;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-font-family: Cambria;
+    -fx-text-fill: black;
+    -fx-padding: 5px 0 0 0;
+}
+
+#users{
+    -fx-max-width: 200px;
+    -fx-max-height: 193px;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-font-size: 15px;
+    -fx-font-family: Cambria;
+}
+
+.button{
+    -fx-max-width: 200px;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-font-family: Cambria;
+}

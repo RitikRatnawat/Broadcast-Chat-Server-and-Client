@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<GridPane fx:id="loginDialog" fx:controller="com.client.chat_client.LoginDialogController"
+          xmlns:fx="http://javafx.com/fxml" alignment="CENTER" hgap="10" vgap="10"
+          stylesheets="@style2.css">
+
+    <Label id="lbl" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.columnSpan="2">
+        Enter Your Name
+    </Label>
+    <TextField fx:id="name" id="name" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+    <Button styleClass="button" GridPane.rowIndex="1" GridPane.columnIndex="1" onMouseClicked="#onLoginButtonPressed">
+        Login
+    </Button>
+</GridPane>
+
+
