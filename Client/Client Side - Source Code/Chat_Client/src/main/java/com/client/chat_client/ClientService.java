@@ -10,6 +10,7 @@ import java.util.StringTokenizer;
 public class ClientService extends ScheduledService<ObservableList<String>>
 {
     private DataInputStream input;
+    private ObservableList<String> users;
 
     public ClientService(DataInputStream input)
     {
@@ -27,19 +28,18 @@ public class ClientService extends ScheduledService<ObservableList<String>>
                 String message;
 
                 message = input.readUTF();
-                ObservableList<String> activeUsers = FXCollections.emptyObservableList();
 
                 if (message.startsWith("Update Users List"))
                 {
-                    activeUsers = updateUsersList(message);
-                    updateValue(activeUsers);
+                    users = updateUsersList(message);
+                    updateValue(users);
                 }
                 else if (message.equals("@@ LogOut Me @@"))
                         return null;
                 else
                     updateMessage(message + "\n");
 
-                return activeUsers;
+                return users;
             }
         };
     }

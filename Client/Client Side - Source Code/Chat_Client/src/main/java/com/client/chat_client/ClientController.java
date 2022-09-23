@@ -168,6 +168,7 @@ public class ClientController
         {
             output.writeUTF("@@ LogOut Me @@");
             service.cancel();
+            header.setText("Broadcast Chat Client");
             Thread.sleep(500);
             socket = null;
         }
@@ -185,8 +186,12 @@ public class ClientController
     {
         try
         {
-            output.writeUTF("@@ LogOut Me @@");
-            service.cancel();
+            if(output != null)
+                output.writeUTF("@@ LogOut Me @@");
+
+            if(service != null)
+                service.cancel();
+
             Thread.sleep(500);
             socket = null;
         }
