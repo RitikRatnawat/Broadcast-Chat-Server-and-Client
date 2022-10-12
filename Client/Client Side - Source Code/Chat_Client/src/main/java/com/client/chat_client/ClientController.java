@@ -15,7 +15,6 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.net.InetAddress;
 import java.net.Socket;
-import java.util.StringTokenizer;
 
 public class ClientController
 {
@@ -167,10 +166,10 @@ public class ClientController
         try
         {
             output.writeUTF("@@ LogOut Me @@");
-            service.cancel();
             header.setText("Broadcast Chat Client");
-            Thread.sleep(500);
+            Thread.sleep(200);
             socket = null;
+            service.cancel();
         }
         catch(Exception e)
         {
@@ -192,7 +191,7 @@ public class ClientController
             if(service != null)
                 service.cancel();
 
-            Thread.sleep(500);
+            Thread.sleep(200);
             socket = null;
         }
         catch(Exception e)
