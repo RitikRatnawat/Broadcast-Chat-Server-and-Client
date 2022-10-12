@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "Run_Client_Asset.bat",0,True
