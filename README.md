@@ -2,4 +2,4 @@
 <h3 align="center">📔 It is Java Project which aim to create a Group Chat Server and Client which broadcast every message to every users active at that time.</h3>
 
 #### Tech Involved : 
-[![My Skills](https://skills.thijs.gg/icons?i=java,xml&theme=light)](https://skills.thijs.gg)
+[![My Skills](https://skills.thijs.gg/icons?i=java,css,maven,idea&theme=light)](https://skills.thijs.gg)
