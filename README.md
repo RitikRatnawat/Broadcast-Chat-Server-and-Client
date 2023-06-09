@@ -10,7 +10,4 @@
 2. First Run the Run_Server.bat file to start the 🖥️ Broadcast Server.
 3. After Run the Run_Client.vbs file to create multiple 💻 clients.
 
-```
-ansible --version
-python3 --version
-```
+
