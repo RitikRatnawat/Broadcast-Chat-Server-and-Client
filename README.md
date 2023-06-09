@@ -11,5 +11,6 @@
 3. After Run the Run_Client.vbs file to create multiple 💻 clients.
 
 ```
-javascript
+ansible --version
+python3 --version
 ```
