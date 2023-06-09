@@ -9,3 +9,5 @@
 1. 📥 Download all the executables files for both client and server from Github Repository.
 2. First Run the Run_Server.bat file to start the 🖥️ Broadcast Server.
 3. After Run the Run_Client.vbs file to create multiple 💻 clients.
+
+`code(ansible --version)`
